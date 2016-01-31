@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans" xmlns:context="http://www.springframework.org/schema/context" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:aop="http://www.springframework.org/schema/aop"
+       xmlns:tx="http://www.springframework.org/schema/tx" xmlns:p="http://www.springframework.org/schema/p" xmlns:util="http://www.springframework.org/schema/util" xmlns:jdbc="http://www.springframework.org/schema/jdbc"
+       xmlns:cache="http://www.springframework.org/schema/cache"
+       xsi:schemaLocation="
+    http://www.springframework.org/schema/context
+    http://www.springframework.org/schema/context/spring-context.xsd
+    http://www.springframework.org/schema/beans
+    http://www.springframework.org/schema/beans/spring-beans.xsd
+    http://www.springframework.org/schema/tx
+    http://www.springframework.org/schema/tx/spring-tx.xsd
+    http://www.springframework.org/schema/jdbc
+    http://www.springframework.org/schema/jdbc/spring-jdbc-3.0.6.xsd
+    http://www.springframework.org/schema/cache
+    http://www.springframework.org/schema/cache/spring-cache-3.0.6.xsd
+    http://www.springframework.org/schema/aop
+    http://www.springframework.org/schema/aop/spring-aop.xsd
+    http://www.springframework.org/schema/util
+    http://www.springframework.org/schema/util/spring-util.xsd">
+
+    <!--Atomikos  JTA 事务 begin-->
+    <!-- 使用分布式事务时设置Postgresql的max_prepared_transactions为大于0的值,该值默认是0 -->
+    <!-- 数据库A -->
+    <bean id="dataSourceBeanA" class="com.atomikos.jdbc.AtomikosDataSourceBean"
+          init-method="init" destroy-method="close">
+        <property name="uniqueResourceName" value="mysql/dataSourceBeanA" />
+        <property name="xaDataSourceClassName">
+            <!-- 使用Mysql XADataSource(mysql>=5.0, Connector/J>=5.0才可以支持XADatasource)-->
+            <value>com.mysql.jdbc.jdbc2.optional.MysqlXADataSource</value>
+        </property>
+        <property name="xaProperties">
+            <props>
+                <prop key="user">root</prop>
+                <prop key="password"></prop>
+                <prop key="serverName">localhost</prop>
+                <prop key="portNumber">3306</prop>
+                <prop key="databaseName">xa_test_1</prop>
+            </props>
+        </property>
+        <property name="poolSize" value="10" />
+        <property name="reapTimeout" value="20000" />
+    </bean>
+    <bean id="dataSourceBeanB" class="com.atomikos.jdbc.AtomikosDataSourceBean"
+          init-method="init" destroy-method="close">
+        <property name="uniqueResourceName" value="mysql/b" />
+        <property name="xaDataSourceClassName">
+            <!-- 使用Mysql XADataSource(mysql>=5.0, Connector/J>=5.0才可以支持XADatasource)-->
+            <value>com.mysql.jdbc.jdbc2.optional.MysqlXADataSource</value>
+        </property>
+        <property name="xaProperties">
+            <props>
+                <prop key="user">root</prop>
+                <prop key="password"></prop>
+                <prop key="serverName">localhost</prop>
+                <prop key="portNumber">3307</prop>
+                <prop key="databaseName">xa_test_2</prop>
+            </props>
+        </property>
+        <property name="poolSize" value="10" />
+        <property name="reapTimeout" value="20000" />
+    </bean>
+    <bean id="atomikosTransactionManager" class="com.atomikos.icatch.jta.UserTransactionManager" init-method="init" destroy-method="close">
+        <property name="forceShutdown"><value>true</value></property>
+    </bean>
+
+    <bean id="atomikosUserTransaction" class="com.atomikos.icatch.jta.UserTransactionImp">
+        <property name="transactionTimeout" value="300"/>
+    </bean>
+
+
+    <bean id="springTransactionManager" class="org.springframework.transaction.jta.JtaTransactionManager">
+        <property name="transactionManager">
+            <ref bean="atomikosTransactionManager"/>
+        </property>
+        <property name="userTransaction">
+            <ref bean="atomikosUserTransaction"/>
+        </property>
+    </bean>
+
+    <bean id="atomikosTransactionProxy"
+          class="org.springframework.transaction.interceptor.TransactionProxyFactoryBean"
+          abstract="true">
+        <property name="transactionManager">
+            <ref bean="springTransactionManager" />
+        </property>
+        <property name="transactionAttributes">
+            <props>
+                <prop key="*">PROPAGATION_REQUIRED,-Exception</prop>
+            </props>
+        </property>
+    </bean>
+
+
+
+    <!--Atomikos  JTA 事务 end  -->
+</beans>
