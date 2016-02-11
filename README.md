@@ -2,6 +2,7 @@
 分布式事务管理
 
 一台机器准备两个mysql实例
+
 1 下载安装第一个实例
 http://mirrors.sohu.com/mysql/
 
