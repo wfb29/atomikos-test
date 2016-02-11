@@ -3,8 +3,21 @@
 
 <log4j:configuration>
 
+    <appender name="CONSOLE" class="org.apache.log4j.ConsoleAppender">
+        <layout class="org.apache.log4j.PatternLayout">
+            <param name="ConversionPattern" value="[BPM] %-d{yyyy-MM-dd HH:mm:ss} %p [%t] %c{1}.%M(%L) | %m%n" />
+        </layout>
+    </appender>
+
     <category name="com.atomikos">
-        <!-- NOTE: this is "atomikos" isntead of "com.atomikos" because that is how Atomikos is setup -->
-        <priority value="error"/>
+        <!--
+        NOTE: this is "atomikos" isntead of "com.atomikos" because that is how Atomikos is setup
+        -->
+        <priority value="DEBUG"/>
     </category>
+
+    <root>
+        <priority value ="DEBUG"/>
+        <appender-ref ref="CONSOLE"/>
+    </root>
 </log4j:configuration>   

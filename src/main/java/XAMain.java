@@ -1,5 +1,6 @@
 import com.atomikos.icatch.jta.UserTransactionManager;
 import com.atomikos.jdbc.AtomikosDataSourceBean;
+import org.apache.log4j.Logger;
 import org.springframework.beans.BeansException;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
@@ -16,6 +17,7 @@ import java.util.Random;
  */
 public class XAMain {
 
+    private static Logger logger = Logger.getLogger(XAMain.class);
 
     private static ApplicationContext ctx;
 
@@ -29,7 +31,7 @@ public class XAMain {
         Random rd = new Random();
         XAMain main = new XAMain();
         long startTime = System.currentTimeMillis();
-        for (int i = 0; i < 100000; i++) {
+        for (int i = 0; i < 2; i++) {
             int transMoney = rd.nextInt(1000000);
             //main.transeMoney(transMoney, transMoney%2);
             main.transeMoney(transMoney, transMoney % 2, true);
@@ -41,6 +43,7 @@ public class XAMain {
 
     private void transeMoney(int money, int forward, boolean b) {
 
+        logger.debug("money = " + money);
         int accountAAddMoney = 0;
         int accountBAddMoney = 0;
         if (forward == 1) {
