@@ -1,0 +1,397 @@
+"C:\Program Files\Java\jdk1.6.0_45\bin\java" -Didea.launcher.port=7532 "-Didea.launcher.bin.path=C:\Program Files (x86)\JetBrains\IntelliJ IDEA 14.0.3\bin" -Dfile.encoding=GBK -classpath "C:\Program Files\Java\jdk1.6.0_45\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.6.0_45\jre\lib\deploy.jar;C:\Program Files\Java\jdk1.6.0_45\jre\lib\javaws.jar;C:\Program Files\Java\jdk1.6.0_45\jre\lib\jce.jar;C:\Program Files\Java\jdk1.6.0_45\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.6.0_45\jre\lib\management-agent.jar;C:\Program Files\Java\jdk1.6.0_45\jre\lib\plugin.jar;C:\Program Files\Java\jdk1.6.0_45\jre\lib\resources.jar;C:\Program Files\Java\jdk1.6.0_45\jre\lib\rt.jar;C:\Program Files\Java\jdk1.6.0_45\jre\lib\ext\dnsns.jar;C:\Program Files\Java\jdk1.6.0_45\jre\lib\ext\localedata.jar;C:\Program Files\Java\jdk1.6.0_45\jre\lib\ext\sunjce_provider.jar;C:\Program Files\Java\jdk1.6.0_45\jre\lib\ext\sunmscapi.jar;F:\code\opensource\atomikos-test\target\classes;C:\Users\e440\.m2\repository\com\atomikos\transactions-jdbc\3.9.1\transactions-jdbc-3.9.1.jar;C:\Users\e440\.m2\repository\com\atomikos\transactions-jta\3.9.1\transactions-jta-3.9.1.jar;C:\Users\e440\.m2\repository\com\atomikos\transactions\3.9.1\transactions-3.9.1.jar;C:\Users\e440\.m2\repository\com\atomikos\transactions-api\3.9.1\transactions-api-3.9.1.jar;C:\Users\e440\.m2\repository\com\atomikos\atomikos-util\3.9.1\atomikos-util-3.9.1.jar;C:\Users\e440\.m2\repository\javax\transaction\jta\1.1\jta-1.1.jar;C:\Users\e440\.m2\repository\org\springframework\spring-core\3.1.0.RELEASE\spring-core-3.1.0.RELEASE.jar;C:\Users\e440\.m2\repository\org\springframework\spring-asm\3.1.0.RELEASE\spring-asm-3.1.0.RELEASE.jar;C:\Users\e440\.m2\repository\commons-logging\commons-logging\1.1.1\commons-logging-1.1.1.jar;C:\Users\e440\.m2\repository\org\springframework\spring-tx\3.1.0.RELEASE\spring-tx-3.1.0.RELEASE.jar;C:\Users\e440\.m2\repository\aopalliance\aopalliance\1.0\aopalliance-1.0.jar;C:\Users\e440\.m2\repository\org\springframework\spring-aop\3.1.0.RELEASE\spring-aop-3.1.0.RELEASE.jar;C:\Users\e440\.m2\repository\org\springframework\spring-beans\3.1.0.RELEASE\spring-beans-3.1.0.RELEASE.jar;C:\Users\e440\.m2\repository\org\springframework\spring-context\3.1.0.RELEASE\spring-context-3.1.0.RELEASE.jar;C:\Users\e440\.m2\repository\org\springframework\spring-expression\3.1.0.RELEASE\spring-expression-3.1.0.RELEASE.jar;C:\Users\e440\.m2\repository\mysql\mysql-connector-java\5.1.38\mysql-connector-java-5.1.38.jar;C:\Users\e440\.m2\repository\log4j\log4j\1.2.17\log4j-1.2.17.jar;C:\Program Files (x86)\JetBrains\IntelliJ IDEA 14.0.3\lib\idea_rt.jar" com.intellij.rt.execution.application.AppMain XAMain
+[BPM] 2016-02-12 17:28:09 DEBUG [main] StandardEnvironment.<init>(100) | Initializing new StandardEnvironment
+[BPM] 2016-02-12 17:28:09 DEBUG [main] StandardEnvironment.addLast(103) | Adding [systemProperties] PropertySource with lowest search precedence
+[BPM] 2016-02-12 17:28:09 DEBUG [main] StandardEnvironment.addLast(103) | Adding [systemEnvironment] PropertySource with lowest search precedence
+[BPM] 2016-02-12 17:28:09 DEBUG [main] StandardEnvironment.<init>(102) | Initialized StandardEnvironment with PropertySources [systemProperties,systemEnvironment]
+[BPM] 2016-02-12 17:28:09 INFO [main] ClassPathXmlApplicationContext.prepareRefresh(495) | Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@50c931fc: startup date [Fri Feb 12 17:28:09 CST 2016]; root of context hierarchy
+[BPM] 2016-02-12 17:28:09 DEBUG [main] StandardEnvironment.<init>(100) | Initializing new StandardEnvironment
+[BPM] 2016-02-12 17:28:09 DEBUG [main] StandardEnvironment.addLast(103) | Adding [systemProperties] PropertySource with lowest search precedence
+[BPM] 2016-02-12 17:28:09 DEBUG [main] StandardEnvironment.addLast(103) | Adding [systemEnvironment] PropertySource with lowest search precedence
+[BPM] 2016-02-12 17:28:09 DEBUG [main] StandardEnvironment.<init>(102) | Initialized StandardEnvironment with PropertySources [systemProperties,systemEnvironment]
+[BPM] 2016-02-12 17:28:09 DEBUG [main] StandardEnvironment.<init>(100) | Initializing new StandardEnvironment
+[BPM] 2016-02-12 17:28:09 DEBUG [main] StandardEnvironment.addLast(103) | Adding [systemProperties] PropertySource with lowest search precedence
+[BPM] 2016-02-12 17:28:09 DEBUG [main] StandardEnvironment.addLast(103) | Adding [systemEnvironment] PropertySource with lowest search precedence
+[BPM] 2016-02-12 17:28:09 DEBUG [main] StandardEnvironment.<init>(102) | Initialized StandardEnvironment with PropertySources [systemProperties,systemEnvironment]
+[BPM] 2016-02-12 17:28:09 INFO [main] XmlBeanDefinitionReader.loadBeanDefinitions(315) | Loading XML bean definitions from class path resource [applicationContext.xml]
+[BPM] 2016-02-12 17:28:09 DEBUG [main] DefaultDocumentLoader.loadDocument(72) | Using JAXP provider [com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderFactoryImpl]
+[BPM] 2016-02-12 17:28:09 DEBUG [main] PluggableSchemaResolver.getSchemaMappings(140) | Loading schema mappings from [META-INF/spring.schemas]
+[BPM] 2016-02-12 17:28:09 DEBUG [main] PluggableSchemaResolver.getSchemaMappings(146) | Loaded schema mappings: {http://www.springframework.org/schema/util/spring-util.xsd=org/springframework/beans/factory/xml/spring-util-3.1.xsd, http://www.springframework.org/schema/task/spring-task.xsd=org/springframework/scheduling/config/spring-task-3.1.xsd, http://www.springframework.org/schema/beans/spring-beans-3.1.xsd=org/springframework/beans/factory/xml/spring-beans-3.1.xsd, http://www.springframework.org/schema/cache/spring-cache.xsd=org/springframework/cache/config/spring-cache-3.1.xsd, http://www.springframework.org/schema/aop/spring-aop-3.0.xsd=org/springframework/aop/config/spring-aop-3.0.xsd, http://www.springframework.org/schema/task/spring-task-3.1.xsd=org/springframework/scheduling/config/spring-task-3.1.xsd, http://www.springframework.org/schema/aop/spring-aop-2.0.xsd=org/springframework/aop/config/spring-aop-2.0.xsd, http://www.springframework.org/schema/tool/spring-tool-2.5.xsd=org/springframework/beans/factory/xml/spring-tool-2.5.xsd, http://www.springframework.org/schema/beans/spring-beans.xsd=org/springframework/beans/factory/xml/spring-beans-3.1.xsd, http://www.springframework.org/schema/jee/spring-jee-2.5.xsd=org/springframework/ejb/config/spring-jee-2.5.xsd, http://www.springframework.org/schema/tool/spring-tool-3.1.xsd=org/springframework/beans/factory/xml/spring-tool-3.1.xsd, http://www.springframework.org/schema/jee/spring-jee-3.1.xsd=org/springframework/ejb/config/spring-jee-3.1.xsd, http://www.springframework.org/schema/aop/spring-aop.xsd=org/springframework/aop/config/spring-aop-3.1.xsd, http://www.springframework.org/schema/beans/spring-beans-2.0.xsd=org/springframework/beans/factory/xml/spring-beans-2.0.xsd, http://www.springframework.org/schema/beans/spring-beans-3.0.xsd=org/springframework/beans/factory/xml/spring-beans-3.0.xsd, http://www.springframework.org/schema/task/spring-task-3.0.xsd=org/springframework/scheduling/config/spring-task-3.0.xsd, http://www.springframework.org/schema/tx/spring-tx-2.5.xsd=org/springframework/transaction/config/spring-tx-2.5.xsd, http://www.springframework.org/schema/context/spring-context-2.5.xsd=org/springframework/context/config/spring-context-2.5.xsd, http://www.springframework.org/schema/tool/spring-tool-3.0.xsd=org/springframework/beans/factory/xml/spring-tool-3.0.xsd, http://www.springframework.org/schema/lang/spring-lang.xsd=org/springframework/scripting/config/spring-lang-3.1.xsd, http://www.springframework.org/schema/tx/spring-tx.xsd=org/springframework/transaction/config/spring-tx-3.1.xsd, http://www.springframework.org/schema/tool/spring-tool-2.0.xsd=org/springframework/beans/factory/xml/spring-tool-2.0.xsd, http://www.springframework.org/schema/util/spring-util-2.5.xsd=org/springframework/beans/factory/xml/spring-util-2.5.xsd, http://www.springframework.org/schema/lang/spring-lang-2.5.xsd=org/springframework/scripting/config/spring-lang-2.5.xsd, http://www.springframework.org/schema/jee/spring-jee-3.0.xsd=org/springframework/ejb/config/spring-jee-3.0.xsd, http://www.springframework.org/schema/jee/spring-jee-2.0.xsd=org/springframework/ejb/config/spring-jee-2.0.xsd, http://www.springframework.org/schema/tx/spring-tx-3.1.xsd=org/springframework/transaction/config/spring-tx-3.1.xsd, http://www.springframework.org/schema/context/spring-context-3.1.xsd=org/springframework/context/config/spring-context-3.1.xsd, http://www.springframework.org/schema/util/spring-util-3.1.xsd=org/springframework/beans/factory/xml/spring-util-3.1.xsd, http://www.springframework.org/schema/lang/spring-lang-3.1.xsd=org/springframework/scripting/config/spring-lang-3.1.xsd, http://www.springframework.org/schema/cache/spring-cache-3.1.xsd=org/springframework/cache/config/spring-cache-3.1.xsd, http://www.springframework.org/schema/context/spring-context.xsd=org/springframework/context/config/spring-context-3.1.xsd, http://www.springframework.org/schema/jee/spring-jee.xsd=org/springframework/ejb/config/spring-jee-3.1.xsd, http://www.springframework.org/schema/aop/spring-aop-2.5.xsd=org/springframework/aop/config/spring-aop-2.5.xsd, http://www.springframework.org/schema/tx/spring-tx-2.0.xsd=org/springframework/transaction/config/spring-tx-2.0.xsd, http://www.springframework.org/schema/aop/spring-aop-3.1.xsd=org/springframework/aop/config/spring-aop-3.1.xsd, http://www.springframework.org/schema/tx/spring-tx-3.0.xsd=org/springframework/transaction/config/spring-tx-3.0.xsd, http://www.springframework.org/schema/context/spring-context-3.0.xsd=org/springframework/context/config/spring-context-3.0.xsd, http://www.springframework.org/schema/tool/spring-tool.xsd=org/springframework/beans/factory/xml/spring-tool-3.1.xsd, http://www.springframework.org/schema/util/spring-util-3.0.xsd=org/springframework/beans/factory/xml/spring-util-3.0.xsd, http://www.springframework.org/schema/lang/spring-lang-3.0.xsd=org/springframework/scripting/config/spring-lang-3.0.xsd, http://www.springframework.org/schema/util/spring-util-2.0.xsd=org/springframework/beans/factory/xml/spring-util-2.0.xsd, http://www.springframework.org/schema/lang/spring-lang-2.0.xsd=org/springframework/scripting/config/spring-lang-2.0.xsd, http://www.springframework.org/schema/beans/spring-beans-2.5.xsd=org/springframework/beans/factory/xml/spring-beans-2.5.xsd}
+[BPM] 2016-02-12 17:28:09 DEBUG [main] PluggableSchemaResolver.resolveEntity(118) | Found XML schema [http://www.springframework.org/schema/beans/spring-beans.xsd] in classpath: org/springframework/beans/factory/xml/spring-beans-3.1.xsd
+[BPM] 2016-02-12 17:28:09 DEBUG [main] DefaultBeanDefinitionDocumentReader.registerBeanDefinitions(108) | Loading bean definitions
+[BPM] 2016-02-12 17:28:09 DEBUG [main] XmlBeanDefinitionReader.loadBeanDefinitions(216) | Loaded 6 bean definitions from location pattern [applicationContext.xml]
+[BPM] 2016-02-12 17:28:09 DEBUG [main] ClassPathXmlApplicationContext.obtainFreshBeanFactory(525) | Bean factory for org.springframework.context.support.ClassPathXmlApplicationContext@50c931fc: org.springframework.beans.factory.support.DefaultListableBeanFactory@30296f76: defining beans [dataSourceBeanA,dataSourceBeanB,atomikosTransactionManager,atomikosUserTransaction,springTransactionManager,atomikosTransactionProxy]; root of factory hierarchy
+[BPM] 2016-02-12 17:28:09 DEBUG [main] ClassPathXmlApplicationContext.initMessageSource(794) | Unable to locate MessageSource with name 'messageSource': using default [org.springframework.context.support.DelegatingMessageSource@75982fc1]
+[BPM] 2016-02-12 17:28:09 DEBUG [main] ClassPathXmlApplicationContext.initApplicationEventMulticaster(818) | Unable to locate ApplicationEventMulticaster with name 'applicationEventMulticaster': using default [org.springframework.context.event.SimpleApplicationEventMulticaster@1d329642]
+[BPM] 2016-02-12 17:28:09 INFO [main] DefaultListableBeanFactory.preInstantiateSingletons(557) | Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@30296f76: defining beans [dataSourceBeanA,dataSourceBeanB,atomikosTransactionManager,atomikosUserTransaction,springTransactionManager,atomikosTransactionProxy]; root of factory hierarchy
+[BPM] 2016-02-12 17:28:09 DEBUG [main] DefaultListableBeanFactory.getSingleton(217) | Creating shared instance of singleton bean 'dataSourceBeanA'
+[BPM] 2016-02-12 17:28:09 DEBUG [main] DefaultListableBeanFactory.createBean(430) | Creating instance of bean 'dataSourceBeanA'
+No org.slf4j.impl.StaticLoggerBinder found in ClassPath, trying with log4j...
+[BPM] 2016-02-12 17:28:09 INFO [main] LoggerFactory.logInfo(16) | Using Log4j for logging.
+[BPM] 2016-02-12 17:28:09 DEBUG [main] DefaultListableBeanFactory.doCreateBean(504) | Eagerly caching bean 'dataSourceBeanA' to allow for resolving potential circular references
+[BPM] 2016-02-12 17:28:09 DEBUG [main] StandardEnvironment.<init>(100) | Initializing new StandardEnvironment
+[BPM] 2016-02-12 17:28:09 DEBUG [main] StandardEnvironment.addLast(103) | Adding [systemProperties] PropertySource with lowest search precedence
+[BPM] 2016-02-12 17:28:09 DEBUG [main] StandardEnvironment.addLast(103) | Adding [systemEnvironment] PropertySource with lowest search precedence
+[BPM] 2016-02-12 17:28:09 DEBUG [main] StandardEnvironment.<init>(102) | Initialized StandardEnvironment with PropertySources [systemProperties,systemEnvironment]
+[BPM] 2016-02-12 17:28:09 DEBUG [main] StandardEnvironment.<init>(100) | Initializing new StandardEnvironment
+[BPM] 2016-02-12 17:28:09 DEBUG [main] StandardEnvironment.addLast(103) | Adding [systemProperties] PropertySource with lowest search precedence
+[BPM] 2016-02-12 17:28:09 DEBUG [main] StandardEnvironment.addLast(103) | Adding [systemEnvironment] PropertySource with lowest search precedence
+[BPM] 2016-02-12 17:28:09 DEBUG [main] StandardEnvironment.<init>(102) | Initialized StandardEnvironment with PropertySources [systemProperties,systemEnvironment]
+[BPM] 2016-02-12 17:28:09 DEBUG [main] StandardEnvironment.<init>(100) | Initializing new StandardEnvironment
+[BPM] 2016-02-12 17:28:09 DEBUG [main] StandardEnvironment.addLast(103) | Adding [systemProperties] PropertySource with lowest search precedence
+[BPM] 2016-02-12 17:28:09 DEBUG [main] StandardEnvironment.addLast(103) | Adding [systemEnvironment] PropertySource with lowest search precedence
+[BPM] 2016-02-12 17:28:09 DEBUG [main] StandardEnvironment.<init>(102) | Initialized StandardEnvironment with PropertySources [systemProperties,systemEnvironment]
+[BPM] 2016-02-12 17:28:09 DEBUG [main] StandardEnvironment.<init>(100) | Initializing new StandardEnvironment
+[BPM] 2016-02-12 17:28:09 DEBUG [main] StandardEnvironment.addLast(103) | Adding [systemProperties] PropertySource with lowest search precedence
+[BPM] 2016-02-12 17:28:09 DEBUG [main] StandardEnvironment.addLast(103) | Adding [systemEnvironment] PropertySource with lowest search precedence
+[BPM] 2016-02-12 17:28:09 DEBUG [main] StandardEnvironment.<init>(102) | Initialized StandardEnvironment with PropertySources [systemProperties,systemEnvironment]
+[BPM] 2016-02-12 17:28:09 DEBUG [main] StandardEnvironment.<init>(100) | Initializing new StandardEnvironment
+[BPM] 2016-02-12 17:28:09 DEBUG [main] StandardEnvironment.addLast(103) | Adding [systemProperties] PropertySource with lowest search precedence
+[BPM] 2016-02-12 17:28:09 DEBUG [main] StandardEnvironment.addLast(103) | Adding [systemEnvironment] PropertySource with lowest search precedence
+[BPM] 2016-02-12 17:28:09 DEBUG [main] StandardEnvironment.<init>(102) | Initialized StandardEnvironment with PropertySources [systemProperties,systemEnvironment]
+[BPM] 2016-02-12 17:28:09 DEBUG [main] DefaultListableBeanFactory.invokeCustomInitMethod(1555) | Invoking init method  'init' on bean with name 'dataSourceBeanA'
+[BPM] 2016-02-12 17:28:09 INFO [main] AbstractDataSourceBean.logInfo(16) | AtomikosDataSoureBean 'mysql/dataSourceBeanA': init...
+[BPM] 2016-02-12 17:28:09 INFO [main] AtomikosDataSourceBean.logInfo(16) | AtomikosDataSoureBean 'mysql/dataSourceBeanA': initializing with [ xaDataSourceClassName=com.mysql.jdbc.jdbc2.optional.MysqlXADataSource, uniqueResourceName=mysql/dataSourceBeanA, maxPoolSize=10, minPoolSize=10, borrowConnectionTimeout=30, maxIdleTime=60, reapTimeout=20000, maintenanceInterval=60, testQuery=null, xaProperties=[user=root,password=,portNumber=3306,databaseName=xa_test_1,serverName=localhost], loginTimeout=0, maxLifetime=0]
+[BPM] 2016-02-12 17:28:09 DEBUG [main] Configuration.logDebug(20) | Configuration: adding resource mysql/dataSourceBeanA
+[BPM] 2016-02-12 17:28:09 DEBUG [main] Configuration.logDebug(20) | Configuration: added resource mysql/dataSourceBeanA
+[BPM] 2016-02-12 17:28:09 DEBUG [main] ConnectionPool.logDebug(20) | atomikos connection pool 'mysql/dataSourceBeanA': initializing...
+[BPM] 2016-02-12 17:28:09 DEBUG [main] AbstractXPooledConnection.logDebug(20) | an AtomikosXAPooledConnection with a SessionHandleState with 0 context(s): registering listener atomikos connection pool 'mysql/dataSourceBeanA'
+[BPM] 2016-02-12 17:28:09 DEBUG [main] AbstractXPooledConnection.logDebug(20) | an AtomikosXAPooledConnection with a SessionHandleState with 0 context(s): registering listener atomikos connection pool 'mysql/dataSourceBeanA'
+[BPM] 2016-02-12 17:28:09 DEBUG [main] AbstractXPooledConnection.logDebug(20) | an AtomikosXAPooledConnection with a SessionHandleState with 0 context(s): registering listener atomikos connection pool 'mysql/dataSourceBeanA'
+[BPM] 2016-02-12 17:28:09 DEBUG [main] AbstractXPooledConnection.logDebug(20) | an AtomikosXAPooledConnection with a SessionHandleState with 0 context(s): registering listener atomikos connection pool 'mysql/dataSourceBeanA'
+[BPM] 2016-02-12 17:28:09 DEBUG [main] AbstractXPooledConnection.logDebug(20) | an AtomikosXAPooledConnection with a SessionHandleState with 0 context(s): registering listener atomikos connection pool 'mysql/dataSourceBeanA'
+[BPM] 2016-02-12 17:28:09 DEBUG [main] AbstractXPooledConnection.logDebug(20) | an AtomikosXAPooledConnection with a SessionHandleState with 0 context(s): registering listener atomikos connection pool 'mysql/dataSourceBeanA'
+[BPM] 2016-02-12 17:28:09 DEBUG [main] AbstractXPooledConnection.logDebug(20) | an AtomikosXAPooledConnection with a SessionHandleState with 0 context(s): registering listener atomikos connection pool 'mysql/dataSourceBeanA'
+[BPM] 2016-02-12 17:28:09 DEBUG [main] AbstractXPooledConnection.logDebug(20) | an AtomikosXAPooledConnection with a SessionHandleState with 0 context(s): registering listener atomikos connection pool 'mysql/dataSourceBeanA'
+[BPM] 2016-02-12 17:28:09 DEBUG [main] AbstractXPooledConnection.logDebug(20) | an AtomikosXAPooledConnection with a SessionHandleState with 0 context(s): registering listener atomikos connection pool 'mysql/dataSourceBeanA'
+[BPM] 2016-02-12 17:28:09 DEBUG [main] AbstractXPooledConnection.logDebug(20) | an AtomikosXAPooledConnection with a SessionHandleState with 0 context(s): registering listener atomikos connection pool 'mysql/dataSourceBeanA'
+[BPM] 2016-02-12 17:28:09 DEBUG [main] TaskManager.logDebug(20) | TaskManager: initializing...
+[BPM] 2016-02-12 17:28:09 INFO [main] TaskManager.logInfo(16) | THREADS: using JDK thread pooling...
+[BPM] 2016-02-12 17:28:09 DEBUG [main] TaskManager.logDebug(20) | THREADS: using executor class com.atomikos.icatch.imp.thread.Java15ExecutorFactory$Executor
+[BPM] 2016-02-12 17:28:09 DEBUG [main] Java15ExecutorFactory.logDebug(20) | (1.5) executing task: com.atomikos.timing.PooledAlarmTimer@13a78071
+[BPM] 2016-02-12 17:28:09 DEBUG [main] ThreadFactory.logDebug(20) | ThreadFactory: creating new thread: Atomikos:0
+[BPM] 2016-02-12 17:28:09 DEBUG [main] AbstractDataSourceBean.logDebug(20) | AtomikosDataSoureBean 'mysql/dataSourceBeanA': init done.
+[BPM] 2016-02-12 17:28:09 DEBUG [main] DefaultListableBeanFactory.createBean(458) | Finished creating instance of bean 'dataSourceBeanA'
+[BPM] 2016-02-12 17:28:09 DEBUG [main] DefaultListableBeanFactory.getSingleton(217) | Creating shared instance of singleton bean 'dataSourceBeanB'
+[BPM] 2016-02-12 17:28:09 DEBUG [main] DefaultListableBeanFactory.createBean(430) | Creating instance of bean 'dataSourceBeanB'
+[BPM] 2016-02-12 17:28:09 DEBUG [main] DefaultListableBeanFactory.doCreateBean(504) | Eagerly caching bean 'dataSourceBeanB' to allow for resolving potential circular references
+[BPM] 2016-02-12 17:28:09 DEBUG [main] StandardEnvironment.<init>(100) | Initializing new StandardEnvironment
+[BPM] 2016-02-12 17:28:09 DEBUG [main] StandardEnvironment.addLast(103) | Adding [systemProperties] PropertySource with lowest search precedence
+[BPM] 2016-02-12 17:28:09 DEBUG [main] StandardEnvironment.addLast(103) | Adding [systemEnvironment] PropertySource with lowest search precedence
+[BPM] 2016-02-12 17:28:09 DEBUG [main] StandardEnvironment.<init>(102) | Initialized StandardEnvironment with PropertySources [systemProperties,systemEnvironment]
+[BPM] 2016-02-12 17:28:09 DEBUG [main] StandardEnvironment.<init>(100) | Initializing new StandardEnvironment
+[BPM] 2016-02-12 17:28:09 DEBUG [main] StandardEnvironment.addLast(103) | Adding [systemProperties] PropertySource with lowest search precedence
+[BPM] 2016-02-12 17:28:09 DEBUG [main] StandardEnvironment.addLast(103) | Adding [systemEnvironment] PropertySource with lowest search precedence
+[BPM] 2016-02-12 17:28:09 DEBUG [main] StandardEnvironment.<init>(102) | Initialized StandardEnvironment with PropertySources [systemProperties,systemEnvironment]
+[BPM] 2016-02-12 17:28:09 DEBUG [main] StandardEnvironment.<init>(100) | Initializing new StandardEnvironment
+[BPM] 2016-02-12 17:28:09 DEBUG [main] StandardEnvironment.addLast(103) | Adding [systemProperties] PropertySource with lowest search precedence
+[BPM] 2016-02-12 17:28:09 DEBUG [main] StandardEnvironment.addLast(103) | Adding [systemEnvironment] PropertySource with lowest search precedence
+[BPM] 2016-02-12 17:28:09 DEBUG [main] StandardEnvironment.<init>(102) | Initialized StandardEnvironment with PropertySources [systemProperties,systemEnvironment]
+[BPM] 2016-02-12 17:28:09 DEBUG [main] StandardEnvironment.<init>(100) | Initializing new StandardEnvironment
+[BPM] 2016-02-12 17:28:09 DEBUG [main] StandardEnvironment.addLast(103) | Adding [systemProperties] PropertySource with lowest search precedence
+[BPM] 2016-02-12 17:28:09 DEBUG [main] StandardEnvironment.addLast(103) | Adding [systemEnvironment] PropertySource with lowest search precedence
+[BPM] 2016-02-12 17:28:09 DEBUG [main] StandardEnvironment.<init>(102) | Initialized StandardEnvironment with PropertySources [systemProperties,systemEnvironment]
+[BPM] 2016-02-12 17:28:09 DEBUG [main] StandardEnvironment.<init>(100) | Initializing new StandardEnvironment
+[BPM] 2016-02-12 17:28:09 DEBUG [main] StandardEnvironment.addLast(103) | Adding [systemProperties] PropertySource with lowest search precedence
+[BPM] 2016-02-12 17:28:09 DEBUG [main] StandardEnvironment.addLast(103) | Adding [systemEnvironment] PropertySource with lowest search precedence
+[BPM] 2016-02-12 17:28:09 DEBUG [main] StandardEnvironment.<init>(102) | Initialized StandardEnvironment with PropertySources [systemProperties,systemEnvironment]
+[BPM] 2016-02-12 17:28:09 DEBUG [main] DefaultListableBeanFactory.invokeCustomInitMethod(1555) | Invoking init method  'init' on bean with name 'dataSourceBeanB'
+[BPM] 2016-02-12 17:28:09 INFO [main] AbstractDataSourceBean.logInfo(16) | AtomikosDataSoureBean 'mysql/b': init...
+[BPM] 2016-02-12 17:28:09 INFO [main] AtomikosDataSourceBean.logInfo(16) | AtomikosDataSoureBean 'mysql/b': initializing with [ xaDataSourceClassName=com.mysql.jdbc.jdbc2.optional.MysqlXADataSource, uniqueResourceName=mysql/b, maxPoolSize=10, minPoolSize=10, borrowConnectionTimeout=30, maxIdleTime=60, reapTimeout=20000, maintenanceInterval=60, testQuery=null, xaProperties=[user=root,password=,portNumber=3307,databaseName=xa_test_2,serverName=localhost], loginTimeout=0, maxLifetime=0]
+[BPM] 2016-02-12 17:28:09 DEBUG [main] Configuration.logDebug(20) | Configuration: adding resource mysql/b
+[BPM] 2016-02-12 17:28:09 DEBUG [main] Configuration.logDebug(20) | Configuration: added resource mysql/b
+[BPM] 2016-02-12 17:28:09 DEBUG [main] ConnectionPool.logDebug(20) | atomikos connection pool 'mysql/b': initializing...
+[BPM] 2016-02-12 17:28:09 DEBUG [main] AbstractXPooledConnection.logDebug(20) | an AtomikosXAPooledConnection with a SessionHandleState with 0 context(s): registering listener atomikos connection pool 'mysql/b'
+[BPM] 2016-02-12 17:28:09 DEBUG [main] AbstractXPooledConnection.logDebug(20) | an AtomikosXAPooledConnection with a SessionHandleState with 0 context(s): registering listener atomikos connection pool 'mysql/b'
+[BPM] 2016-02-12 17:28:09 DEBUG [main] AbstractXPooledConnection.logDebug(20) | an AtomikosXAPooledConnection with a SessionHandleState with 0 context(s): registering listener atomikos connection pool 'mysql/b'
+[BPM] 2016-02-12 17:28:09 DEBUG [main] AbstractXPooledConnection.logDebug(20) | an AtomikosXAPooledConnection with a SessionHandleState with 0 context(s): registering listener atomikos connection pool 'mysql/b'
+[BPM] 2016-02-12 17:28:09 DEBUG [main] AbstractXPooledConnection.logDebug(20) | an AtomikosXAPooledConnection with a SessionHandleState with 0 context(s): registering listener atomikos connection pool 'mysql/b'
+[BPM] 2016-02-12 17:28:09 DEBUG [main] AbstractXPooledConnection.logDebug(20) | an AtomikosXAPooledConnection with a SessionHandleState with 0 context(s): registering listener atomikos connection pool 'mysql/b'
+[BPM] 2016-02-12 17:28:09 DEBUG [main] AbstractXPooledConnection.logDebug(20) | an AtomikosXAPooledConnection with a SessionHandleState with 0 context(s): registering listener atomikos connection pool 'mysql/b'
+[BPM] 2016-02-12 17:28:09 DEBUG [main] AbstractXPooledConnection.logDebug(20) | an AtomikosXAPooledConnection with a SessionHandleState with 0 context(s): registering listener atomikos connection pool 'mysql/b'
+[BPM] 2016-02-12 17:28:09 DEBUG [main] AbstractXPooledConnection.logDebug(20) | an AtomikosXAPooledConnection with a SessionHandleState with 0 context(s): registering listener atomikos connection pool 'mysql/b'
+[BPM] 2016-02-12 17:28:09 DEBUG [main] AbstractXPooledConnection.logDebug(20) | an AtomikosXAPooledConnection with a SessionHandleState with 0 context(s): registering listener atomikos connection pool 'mysql/b'
+[BPM] 2016-02-12 17:28:09 DEBUG [main] Java15ExecutorFactory.logDebug(20) | (1.5) executing task: com.atomikos.timing.PooledAlarmTimer@5c95da38
+[BPM] 2016-02-12 17:28:09 DEBUG [main] ThreadFactory.logDebug(20) | ThreadFactory: creating new thread: Atomikos:1
+[BPM] 2016-02-12 17:28:09 DEBUG [main] AbstractDataSourceBean.logDebug(20) | AtomikosDataSoureBean 'mysql/b': init done.
+[BPM] 2016-02-12 17:28:09 DEBUG [main] DefaultListableBeanFactory.createBean(458) | Finished creating instance of bean 'dataSourceBeanB'
+[BPM] 2016-02-12 17:28:09 DEBUG [main] DefaultListableBeanFactory.getSingleton(217) | Creating shared instance of singleton bean 'atomikosTransactionManager'
+[BPM] 2016-02-12 17:28:09 DEBUG [main] DefaultListableBeanFactory.createBean(430) | Creating instance of bean 'atomikosTransactionManager'
+[BPM] 2016-02-12 17:28:09 DEBUG [main] DefaultListableBeanFactory.doCreateBean(504) | Eagerly caching bean 'atomikosTransactionManager' to allow for resolving potential circular references
+[BPM] 2016-02-12 17:28:09 DEBUG [main] StandardEnvironment.<init>(100) | Initializing new StandardEnvironment
+[BPM] 2016-02-12 17:28:09 DEBUG [main] StandardEnvironment.addLast(103) | Adding [systemProperties] PropertySource with lowest search precedence
+[BPM] 2016-02-12 17:28:09 DEBUG [main] StandardEnvironment.addLast(103) | Adding [systemEnvironment] PropertySource with lowest search precedence
+[BPM] 2016-02-12 17:28:09 DEBUG [main] StandardEnvironment.<init>(102) | Initialized StandardEnvironment with PropertySources [systemProperties,systemEnvironment]
+[BPM] 2016-02-12 17:28:09 DEBUG [main] StandardEnvironment.<init>(100) | Initializing new StandardEnvironment
+[BPM] 2016-02-12 17:28:09 DEBUG [main] StandardEnvironment.addLast(103) | Adding [systemProperties] PropertySource with lowest search precedence
+[BPM] 2016-02-12 17:28:09 DEBUG [main] StandardEnvironment.addLast(103) | Adding [systemEnvironment] PropertySource with lowest search precedence
+[BPM] 2016-02-12 17:28:09 DEBUG [main] StandardEnvironment.<init>(102) | Initialized StandardEnvironment with PropertySources [systemProperties,systemEnvironment]
+[BPM] 2016-02-12 17:28:09 DEBUG [main] StandardEnvironment.<init>(100) | Initializing new StandardEnvironment
+[BPM] 2016-02-12 17:28:09 DEBUG [main] StandardEnvironment.addLast(103) | Adding [systemProperties] PropertySource with lowest search precedence
+[BPM] 2016-02-12 17:28:09 DEBUG [main] StandardEnvironment.addLast(103) | Adding [systemEnvironment] PropertySource with lowest search precedence
+[BPM] 2016-02-12 17:28:09 DEBUG [main] StandardEnvironment.<init>(102) | Initialized StandardEnvironment with PropertySources [systemProperties,systemEnvironment]
+[BPM] 2016-02-12 17:28:09 DEBUG [main] StandardEnvironment.<init>(100) | Initializing new StandardEnvironment
+[BPM] 2016-02-12 17:28:09 DEBUG [main] StandardEnvironment.addLast(103) | Adding [systemProperties] PropertySource with lowest search precedence
+[BPM] 2016-02-12 17:28:09 DEBUG [main] StandardEnvironment.addLast(103) | Adding [systemEnvironment] PropertySource with lowest search precedence
+[BPM] 2016-02-12 17:28:09 DEBUG [main] StandardEnvironment.<init>(102) | Initialized StandardEnvironment with PropertySources [systemProperties,systemEnvironment]
+[BPM] 2016-02-12 17:28:09 DEBUG [main] StandardEnvironment.<init>(100) | Initializing new StandardEnvironment
+[BPM] 2016-02-12 17:28:09 DEBUG [main] StandardEnvironment.addLast(103) | Adding [systemProperties] PropertySource with lowest search precedence
+[BPM] 2016-02-12 17:28:09 DEBUG [main] StandardEnvironment.addLast(103) | Adding [systemEnvironment] PropertySource with lowest search precedence
+[BPM] 2016-02-12 17:28:09 DEBUG [main] StandardEnvironment.<init>(102) | Initialized StandardEnvironment with PropertySources [systemProperties,systemEnvironment]
+[BPM] 2016-02-12 17:28:09 DEBUG [main] DefaultListableBeanFactory.invokeCustomInitMethod(1555) | Invoking init method  'init' on bean with name 'atomikosTransactionManager'
+[BPM] 2016-02-12 17:28:09 WARN [main] UserTransactionServiceImp.logWarning(12) | No properties path set - looking for transactions.properties in classpath...
+[BPM] 2016-02-12 17:28:09 WARN [main] UserTransactionServiceImp.logWarning(12) | transactions.properties not found - looking for jta.properties in classpath...
+[BPM] 2016-02-12 17:28:09 WARN [main] UserTransactionServiceImp.logWarning(12) | Failed to open transactions properties file - using default values
+[BPM] 2016-02-12 17:28:09 INFO [main] StateRecoveryManagerImp.logInfo(16) | com.atomikos.persistence.imp.WriteAheadObjectLog instantiation failed - falling back to default
+[BPM] 2016-02-12 17:28:09 INFO [main] FileLogStream.logInfo(16) | Starting read of logfile F:\code\opensource\atomikos-test\.\tmlog3628.log
+[BPM] 2016-02-12 17:28:09 INFO [main] FileLogStream.logInfo(16) | Done read of logfile
+[BPM] 2016-02-12 17:28:09 INFO [main] AbstractLogStream.logInfo(16) | Logfile closed: F:\code\opensource\atomikos-test\.\tmlog3628.log
+[BPM] 2016-02-12 17:28:09 DEBUG [main] XATransactionalResource.logDebug(20) | Installing recovery service on resource mysql/dataSourceBeanA
+[BPM] 2016-02-12 17:28:09 DEBUG [main] XATransactionalResource.logDebug(20) | mysql/dataSourceBeanA: refreshing XAResource...
+[BPM] 2016-02-12 17:28:09 INFO [main] XATransactionalResource.logInfo(16) | mysql/dataSourceBeanA: refreshed XAResource
+[BPM] 2016-02-12 17:28:09 DEBUG [main] XATransactionalResource.logDebug(20) | recovery initiated for resource mysql/dataSourceBeanA with branchIdentifier 192.168.179.1.tm
+[BPM] 2016-02-12 17:28:09 DEBUG [main] XATransactionalResource.logDebug(20) | endRecovery() done for resource mysql/dataSourceBeanA
+[BPM] 2016-02-12 17:28:09 DEBUG [main] XATransactionalResource.logDebug(20) | mysql/b: refreshing XAResource...
+[BPM] 2016-02-12 17:28:09 INFO [main] XATransactionalResource.logInfo(16) | mysql/b: refreshed XAResource
+[BPM] 2016-02-12 17:28:09 DEBUG [main] XATransactionalResource.logDebug(20) | No recoveryService set yet!
+[BPM] 2016-02-12 17:28:09 DEBUG [main] XATransactionalResource.logDebug(20) | endRecovery() done for resource mysql/b
+[BPM] 2016-02-12 17:28:09 DEBUG [main] XATransactionalResource.logDebug(20) | Installing recovery service on resource mysql/b
+[BPM] 2016-02-12 17:28:09 DEBUG [main] XATransactionalResource.logDebug(20) | recovery initiated for resource mysql/dataSourceBeanA with branchIdentifier 192.168.179.1.tm
+[BPM] 2016-02-12 17:28:09 DEBUG [main] XATransactionalResource.logDebug(20) | endRecovery() done for resource mysql/dataSourceBeanA
+[BPM] 2016-02-12 17:28:09 DEBUG [main] XATransactionalResource.logDebug(20) | recovery initiated for resource mysql/b with branchIdentifier 192.168.179.1.tm
+[BPM] 2016-02-12 17:28:09 DEBUG [main] XATransactionalResource.logDebug(20) | endRecovery() done for resource mysql/b
+[BPM] 2016-02-12 17:28:09 DEBUG [main] XATransactionalResource.logDebug(20) | recovery initiated for resource mysql/dataSourceBeanA with branchIdentifier 192.168.179.1.tm
+[BPM] 2016-02-12 17:28:09 DEBUG [main] XATransactionalResource.logDebug(20) | endRecovery() done for resource mysql/dataSourceBeanA
+[BPM] 2016-02-12 17:28:09 DEBUG [main] XATransactionalResource.logDebug(20) | recovery initiated for resource mysql/b with branchIdentifier 192.168.179.1.tm
+[BPM] 2016-02-12 17:28:09 DEBUG [main] XATransactionalResource.logDebug(20) | endRecovery() done for resource mysql/b
+[BPM] 2016-02-12 17:28:09 DEBUG [main] XATransactionalResource.logDebug(20) | Installing recovery service on resource mysql/dataSourceBeanA
+[BPM] 2016-02-12 17:28:09 DEBUG [main] XATransactionalResource.logDebug(20) | recovery initiated for resource mysql/dataSourceBeanA with branchIdentifier 192.168.179.1.tm
+[BPM] 2016-02-12 17:28:09 DEBUG [main] XATransactionalResource.logDebug(20) | endRecovery() done for resource mysql/dataSourceBeanA
+[BPM] 2016-02-12 17:28:09 DEBUG [main] XATransactionalResource.logDebug(20) | recovery initiated for resource mysql/b with branchIdentifier 192.168.179.1.tm
+[BPM] 2016-02-12 17:28:09 DEBUG [main] XATransactionalResource.logDebug(20) | endRecovery() done for resource mysql/b
+[BPM] 2016-02-12 17:28:09 DEBUG [main] XATransactionalResource.logDebug(20) | Installing recovery service on resource mysql/b
+[BPM] 2016-02-12 17:28:09 DEBUG [main] XATransactionalResource.logDebug(20) | recovery initiated for resource mysql/dataSourceBeanA with branchIdentifier 192.168.179.1.tm
+[BPM] 2016-02-12 17:28:09 DEBUG [main] XATransactionalResource.logDebug(20) | endRecovery() done for resource mysql/dataSourceBeanA
+[BPM] 2016-02-12 17:28:09 DEBUG [main] XATransactionalResource.logDebug(20) | recovery initiated for resource mysql/b with branchIdentifier 192.168.179.1.tm
+[BPM] 2016-02-12 17:28:09 DEBUG [main] XATransactionalResource.logDebug(20) | endRecovery() done for resource mysql/b
+[BPM] 2016-02-12 17:28:09 INFO [main] AbstractUserTransactionService.logInfo(16) | USING core version: 3.9.1
+[BPM] 2016-02-12 17:28:09 INFO [main] AbstractUserTransactionService.logInfo(16) | USING com.atomikos.icatch.automatic_resource_registration = true
+[BPM] 2016-02-12 17:28:09 INFO [main] AbstractUserTransactionService.logInfo(16) | USING com.atomikos.icatch.client_demarcation = false
+[BPM] 2016-02-12 17:28:09 INFO [main] AbstractUserTransactionService.logInfo(16) | USING com.atomikos.icatch.threaded_2pc = false
+[BPM] 2016-02-12 17:28:09 INFO [main] AbstractUserTransactionService.logInfo(16) | USING com.atomikos.icatch.serial_jta_transactions = true
+[BPM] 2016-02-12 17:28:09 INFO [main] AbstractUserTransactionService.logInfo(16) | USING com.atomikos.icatch.serializable_logging = true
+[BPM] 2016-02-12 17:28:09 INFO [main] AbstractUserTransactionService.logInfo(16) | USING com.atomikos.icatch.log_base_dir = .\
+[BPM] 2016-02-12 17:28:09 INFO [main] AbstractUserTransactionService.logInfo(16) | USING com.atomikos.icatch.max_actives = 50
+[BPM] 2016-02-12 17:28:09 INFO [main] AbstractUserTransactionService.logInfo(16) | USING com.atomikos.icatch.checkpoint_interval = 500
+[BPM] 2016-02-12 17:28:09 INFO [main] AbstractUserTransactionService.logInfo(16) | USING com.atomikos.icatch.enable_logging = true
+[BPM] 2016-02-12 17:28:09 INFO [main] AbstractUserTransactionService.logInfo(16) | USING com.atomikos.icatch.output_dir = .\
+[BPM] 2016-02-12 17:28:09 INFO [main] AbstractUserTransactionService.logInfo(16) | USING com.atomikos.icatch.log_base_name = tmlog
+[BPM] 2016-02-12 17:28:09 INFO [main] AbstractUserTransactionService.logInfo(16) | USING com.atomikos.icatch.max_timeout = 300000
+[BPM] 2016-02-12 17:28:09 INFO [main] AbstractUserTransactionService.logInfo(16) | USING com.atomikos.icatch.tm_unique_name = 192.168.179.1.tm
+[BPM] 2016-02-12 17:28:09 INFO [main] AbstractUserTransactionService.logInfo(16) | USING java.naming.factory.initial = com.sun.jndi.rmi.registry.RegistryContextFactory
+[BPM] 2016-02-12 17:28:09 INFO [main] AbstractUserTransactionService.logInfo(16) | USING java.naming.provider.url = rmi://localhost:1099
+[BPM] 2016-02-12 17:28:09 INFO [main] AbstractUserTransactionService.logInfo(16) | USING com.atomikos.icatch.service = com.atomikos.icatch.standalone.UserTransactionServiceFactory
+[BPM] 2016-02-12 17:28:09 INFO [main] AbstractUserTransactionService.logInfo(16) | USING com.atomikos.icatch.force_shutdown_on_vm_exit = false
+[BPM] 2016-02-12 17:28:09 INFO [main] AbstractUserTransactionService.logInfo(16) | USING com.atomikos.icatch.default_jta_timeout = 10000
+[BPM] 2016-02-12 17:28:09 DEBUG [main] DefaultListableBeanFactory.createBean(458) | Finished creating instance of bean 'atomikosTransactionManager'
+[BPM] 2016-02-12 17:28:09 DEBUG [main] DefaultListableBeanFactory.getSingleton(217) | Creating shared instance of singleton bean 'atomikosUserTransaction'
+[BPM] 2016-02-12 17:28:09 DEBUG [main] DefaultListableBeanFactory.createBean(430) | Creating instance of bean 'atomikosUserTransaction'
+[BPM] 2016-02-12 17:28:09 DEBUG [main] DefaultListableBeanFactory.doCreateBean(504) | Eagerly caching bean 'atomikosUserTransaction' to allow for resolving potential circular references
+[BPM] 2016-02-12 17:28:09 DEBUG [main] StandardEnvironment.<init>(100) | Initializing new StandardEnvironment
+[BPM] 2016-02-12 17:28:09 DEBUG [main] StandardEnvironment.addLast(103) | Adding [systemProperties] PropertySource with lowest search precedence
+[BPM] 2016-02-12 17:28:09 DEBUG [main] StandardEnvironment.addLast(103) | Adding [systemEnvironment] PropertySource with lowest search precedence
+[BPM] 2016-02-12 17:28:09 DEBUG [main] StandardEnvironment.<init>(102) | Initialized StandardEnvironment with PropertySources [systemProperties,systemEnvironment]
+[BPM] 2016-02-12 17:28:09 DEBUG [main] StandardEnvironment.<init>(100) | Initializing new StandardEnvironment
+[BPM] 2016-02-12 17:28:09 DEBUG [main] StandardEnvironment.addLast(103) | Adding [systemProperties] PropertySource with lowest search precedence
+[BPM] 2016-02-12 17:28:09 DEBUG [main] StandardEnvironment.addLast(103) | Adding [systemEnvironment] PropertySource with lowest search precedence
+[BPM] 2016-02-12 17:28:09 DEBUG [main] StandardEnvironment.<init>(102) | Initialized StandardEnvironment with PropertySources [systemProperties,systemEnvironment]
+[BPM] 2016-02-12 17:28:09 DEBUG [main] StandardEnvironment.<init>(100) | Initializing new StandardEnvironment
+[BPM] 2016-02-12 17:28:09 DEBUG [main] StandardEnvironment.addLast(103) | Adding [systemProperties] PropertySource with lowest search precedence
+[BPM] 2016-02-12 17:28:09 DEBUG [main] StandardEnvironment.addLast(103) | Adding [systemEnvironment] PropertySource with lowest search precedence
+[BPM] 2016-02-12 17:28:09 DEBUG [main] StandardEnvironment.<init>(102) | Initialized StandardEnvironment with PropertySources [systemProperties,systemEnvironment]
+[BPM] 2016-02-12 17:28:09 DEBUG [main] StandardEnvironment.<init>(100) | Initializing new StandardEnvironment
+[BPM] 2016-02-12 17:28:09 DEBUG [main] StandardEnvironment.addLast(103) | Adding [systemProperties] PropertySource with lowest search precedence
+[BPM] 2016-02-12 17:28:09 DEBUG [main] StandardEnvironment.addLast(103) | Adding [systemEnvironment] PropertySource with lowest search precedence
+[BPM] 2016-02-12 17:28:09 DEBUG [main] StandardEnvironment.<init>(102) | Initialized StandardEnvironment with PropertySources [systemProperties,systemEnvironment]
+[BPM] 2016-02-12 17:28:09 DEBUG [main] StandardEnvironment.<init>(100) | Initializing new StandardEnvironment
+[BPM] 2016-02-12 17:28:09 DEBUG [main] StandardEnvironment.addLast(103) | Adding [systemProperties] PropertySource with lowest search precedence
+[BPM] 2016-02-12 17:28:09 DEBUG [main] StandardEnvironment.addLast(103) | Adding [systemEnvironment] PropertySource with lowest search precedence
+[BPM] 2016-02-12 17:28:09 DEBUG [main] StandardEnvironment.<init>(102) | Initialized StandardEnvironment with PropertySources [systemProperties,systemEnvironment]
+[BPM] 2016-02-12 17:28:09 DEBUG [main] DefaultListableBeanFactory.createBean(458) | Finished creating instance of bean 'atomikosUserTransaction'
+[BPM] 2016-02-12 17:28:09 DEBUG [main] DefaultListableBeanFactory.getSingleton(217) | Creating shared instance of singleton bean 'springTransactionManager'
+[BPM] 2016-02-12 17:28:09 DEBUG [main] DefaultListableBeanFactory.createBean(430) | Creating instance of bean 'springTransactionManager'
+[BPM] 2016-02-12 17:28:09 DEBUG [main] DefaultListableBeanFactory.doCreateBean(504) | Eagerly caching bean 'springTransactionManager' to allow for resolving potential circular references
+[BPM] 2016-02-12 17:28:09 DEBUG [main] DefaultListableBeanFactory.doGetBean(245) | Returning cached instance of singleton bean 'atomikosTransactionManager'
+[BPM] 2016-02-12 17:28:09 DEBUG [main] DefaultListableBeanFactory.doGetBean(245) | Returning cached instance of singleton bean 'atomikosUserTransaction'
+[BPM] 2016-02-12 17:28:09 DEBUG [main] DefaultListableBeanFactory.invokeInitMethods(1498) | Invoking afterPropertiesSet() on bean with name 'springTransactionManager'
+[BPM] 2016-02-12 17:28:09 INFO [main] JtaTransactionManager.checkUserTransactionAndTransactionManager(470) | Using JTA UserTransaction: com.atomikos.icatch.jta.UserTransactionImp@6e4eeaaf
+[BPM] 2016-02-12 17:28:09 INFO [main] JtaTransactionManager.checkUserTransactionAndTransactionManager(481) | Using JTA TransactionManager: com.atomikos.icatch.jta.UserTransactionManager@7f11bfbc
+[BPM] 2016-02-12 17:28:09 DEBUG [main] DefaultListableBeanFactory.createBean(458) | Finished creating instance of bean 'springTransactionManager'
+[BPM] 2016-02-12 17:28:09 DEBUG [main] ClassPathXmlApplicationContext.initLifecycleProcessor(845) | Unable to locate LifecycleProcessor with name 'lifecycleProcessor': using default [org.springframework.context.support.DefaultLifecycleProcessor@3d04fc23]
+[BPM] 2016-02-12 17:28:09 DEBUG [main] DefaultListableBeanFactory.doGetBean(245) | Returning cached instance of singleton bean 'lifecycleProcessor'
+[BPM] 2016-02-12 17:28:09 DEBUG [main] XAMain.transeMoney(46) | start transeMoney money = 283626
+[BPM] 2016-02-12 17:28:09 DEBUG [main] DefaultListableBeanFactory.doGetBean(245) | Returning cached instance of singleton bean 'atomikosTransactionManager'
+[BPM] 2016-02-12 17:28:09 DEBUG [main] BaseTransactionManager.logDebug(20) | getCompositeTransaction() returning NULL!
+[BPM] 2016-02-12 17:28:09 DEBUG [main] CoordinatorImp.logDebug(20) | Coordinator 192.168.179.1.tm0000100102 entering state: ACTIVE
+[BPM] 2016-02-12 17:28:09 DEBUG [main] Java15ExecutorFactory.logDebug(20) | (1.5) executing task: com.atomikos.timing.PooledAlarmTimer@72e5355f
+[BPM] 2016-02-12 17:28:09 DEBUG [main] ThreadFactory.logDebug(20) | ThreadFactory: creating new thread: Atomikos:2
+[BPM] 2016-02-12 17:28:09 DEBUG [main] TransactionServiceImp.logDebug(20) | Creating composite transaction: 192.168.179.1.tm0000100102
+[BPM] 2016-02-12 17:28:09 INFO [main] BaseTransactionManager.logInfo(16) | createCompositeTransaction ( 300000 ): created new ROOT transaction with id 192.168.179.1.tm0000100102
+[BPM] 2016-02-12 17:28:09 DEBUG [main] DefaultListableBeanFactory.doGetBean(245) | Returning cached instance of singleton bean 'dataSourceBeanA'
+[BPM] 2016-02-12 17:28:09 INFO [main] AbstractDataSourceBean.logInfo(16) | AtomikosDataSoureBean 'mysql/dataSourceBeanA': getConnection ( null )...
+[BPM] 2016-02-12 17:28:09 INFO [main] AbstractDataSourceBean.logInfo(16) | AtomikosDataSoureBean 'mysql/dataSourceBeanA': init...
+[BPM] 2016-02-12 17:28:09 DEBUG [main] BaseTransactionManager.logDebug(20) | getCompositeTransaction()  returning instance with id 192.168.179.1.tm0000100102
+[BPM] 2016-02-12 17:28:09 DEBUG [main] BaseTransactionManager.logDebug(20) | getCompositeTransaction()  returning instance with id 192.168.179.1.tm0000100102
+[BPM] 2016-02-12 17:28:09 DEBUG [main] BaseTransactionManager.logDebug(20) | getCompositeTransaction()  returning instance with id 192.168.179.1.tm0000100102
+[BPM] 2016-02-12 17:28:09 DEBUG [main] BaseTransactionManager.logDebug(20) | getCompositeTransaction()  returning instance with id 192.168.179.1.tm0000100102
+[BPM] 2016-02-12 17:28:09 DEBUG [main] BaseTransactionManager.logDebug(20) | getCompositeTransaction()  returning instance with id 192.168.179.1.tm0000100102
+[BPM] 2016-02-12 17:28:09 DEBUG [main] BaseTransactionManager.logDebug(20) | getCompositeTransaction()  returning instance with id 192.168.179.1.tm0000100102
+[BPM] 2016-02-12 17:28:09 DEBUG [main] BaseTransactionManager.logDebug(20) | getCompositeTransaction()  returning instance with id 192.168.179.1.tm0000100102
+[BPM] 2016-02-12 17:28:09 DEBUG [main] BaseTransactionManager.logDebug(20) | getCompositeTransaction()  returning instance with id 192.168.179.1.tm0000100102
+[BPM] 2016-02-12 17:28:09 DEBUG [main] BaseTransactionManager.logDebug(20) | getCompositeTransaction()  returning instance with id 192.168.179.1.tm0000100102
+[BPM] 2016-02-12 17:28:09 DEBUG [main] BaseTransactionManager.logDebug(20) | getCompositeTransaction()  returning instance with id 192.168.179.1.tm0000100102
+[BPM] 2016-02-12 17:28:09 DEBUG [main] AbstractXPooledConnection.logDebug(20) | an AtomikosXAPooledConnection with a SessionHandleState with 0 context(s): updating last time acquired
+[BPM] 2016-02-12 17:28:09 DEBUG [main] AtomikosXAPooledConnection.logDebug(20) | an AtomikosXAPooledConnection with a SessionHandleState with 0 context(s): no test query, skipping test
+[BPM] 2016-02-12 17:28:09 DEBUG [main] AtomikosXAPooledConnection.logDebug(20) | an AtomikosXAPooledConnection with a SessionHandleState with 0 context(s): creating connection proxy...
+[BPM] 2016-02-12 17:28:09 DEBUG [main] SessionHandleState.logDebug(20) | a SessionHandleState with 0 context(s): notifySessionBorrowed
+[BPM] 2016-02-12 17:28:09 DEBUG [main] TransactionContext.logDebug(20) | a TransactionContext: changing to state com.atomikos.datasource.xa.session.NotInBranchStateHandler@26789869
+[BPM] 2016-02-12 17:28:10 DEBUG [main] BaseTransactionManager.logDebug(20) | getCompositeTransaction()  returning instance with id 192.168.179.1.tm0000100102
+[BPM] 2016-02-12 17:28:10 INFO [main] AtomikosConnectionProxy.logInfo(16) | atomikos connection proxy for com.mysql.jdbc.jdbc2.optional.JDBC4ConnectionWrapper@78ff9053: calling toString...
+[BPM] 2016-02-12 17:28:10 DEBUG [main] AtomikosConnectionProxy.logDebug(20) | atomikos connection proxy for com.mysql.jdbc.jdbc2.optional.JDBC4ConnectionWrapper@78ff9053: toString returning com.mysql.jdbc.jdbc2.optional.JDBC4ConnectionWrapper@78ff9053
+[BPM] 2016-02-12 17:28:10 DEBUG [main] AbstractXPooledConnection.logDebug(20) | an AtomikosXAPooledConnection with a SessionHandleState with 1 context(s): returning proxy com.mysql.jdbc.jdbc2.optional.JDBC4ConnectionWrapper@78ff9053
+[BPM] 2016-02-12 17:28:10 DEBUG [main] ConnectionPool.logDebug(20) | atomikos connection pool 'mysql/dataSourceBeanA': got connection from pool
+[BPM] 2016-02-12 17:28:10 DEBUG [main] ConnectionPool.logDebug(20) | atomikos connection pool 'mysql/dataSourceBeanA': current size: 9/10
+[BPM] 2016-02-12 17:28:10 DEBUG [main] BaseTransactionManager.logDebug(20) | getCompositeTransaction()  returning instance with id 192.168.179.1.tm0000100102
+[BPM] 2016-02-12 17:28:10 INFO [main] AtomikosConnectionProxy.logInfo(16) | atomikos connection proxy for com.mysql.jdbc.jdbc2.optional.JDBC4ConnectionWrapper@78ff9053: calling toString...
+[BPM] 2016-02-12 17:28:10 DEBUG [main] AtomikosConnectionProxy.logDebug(20) | atomikos connection proxy for com.mysql.jdbc.jdbc2.optional.JDBC4ConnectionWrapper@78ff9053: toString returning com.mysql.jdbc.jdbc2.optional.JDBC4ConnectionWrapper@78ff9053
+[BPM] 2016-02-12 17:28:10 DEBUG [main] AbstractDataSourceBean.logDebug(20) | AtomikosDataSoureBean 'mysql/dataSourceBeanA': returning com.mysql.jdbc.jdbc2.optional.JDBC4ConnectionWrapper@78ff9053
+[BPM] 2016-02-12 17:28:10 DEBUG [main] BaseTransactionManager.logDebug(20) | getCompositeTransaction()  returning instance with id 192.168.179.1.tm0000100102
+[BPM] 2016-02-12 17:28:10 DEBUG [main] AtomikosConnectionProxy.logDebug(20) | atomikos connection proxy for com.mysql.jdbc.jdbc2.optional.JDBC4ConnectionWrapper@78ff9053: notifyBeforeUse a SessionHandleState with 1 context(s)
+[BPM] 2016-02-12 17:28:10 DEBUG [main] BaseTransactionManager.logDebug(20) | getCompositeTransaction()  returning instance with id 192.168.179.1.tm0000100102
+[BPM] 2016-02-12 17:28:10 DEBUG [main] SessionHandleState.logDebug(20) | a SessionHandleState with 1 context(s): checking XA context for transaction com.atomikos.icatch.imp.CompositeTransactionImp@f8b732
+[BPM] 2016-02-12 17:28:10 DEBUG [main] CoordinatorImp.logDebug(20) | Coordinator 192.168.179.1.tm0000100102 entering state: ACTIVE
+[BPM] 2016-02-12 17:28:10 INFO [main] CompositeTransactionImp.logInfo(16) | addParticipant ( XAResourceTransaction: 3139322E3136382E3137392E312E746D30303030313030313032:3139322E3136382E3137392E312E746D31 ) for transaction 192.168.179.1.tm0000100102
+[BPM] 2016-02-12 17:28:10 DEBUG [main] XAResourceTransaction.logDebug(20) | XAResourceTransaction: 3139322E3136382E3137392E312E746D30303030313030313032:3139322E3136382E3137392E312E746D31: about to switch to XAResource com.mysql.jdbc.jdbc2.optional.JDBC4MysqlXAConnection@64df83e5
+[BPM] 2016-02-12 17:28:10 DEBUG [main] XAResourceTransaction.logDebug(20) | XAResourceTransaction 192.168.179.1.tm0000100102192.168.179.1.tm1: switched to XAResource com.mysql.jdbc.jdbc2.optional.JDBC4MysqlXAConnection@64df83e5
+[BPM] 2016-02-12 17:28:10 INFO [main] XAResourceTransaction.logInfo(16) | XAResource.start ( 3139322E3136382E3137392E312E746D30303030313030313032:3139322E3136382E3137392E312E746D31 , XAResource.TMNOFLAGS ) on resource mysql/dataSourceBeanA represented by XAResource instance com.mysql.jdbc.jdbc2.optional.JDBC4MysqlXAConnection@64df83e5
+[BPM] 2016-02-12 17:28:10 DEBUG [main] TransactionContext.logDebug(20) | a TransactionContext: changing to state com.atomikos.datasource.xa.session.BranchEnlistedStateHandler@495c998a
+[BPM] 2016-02-12 17:28:10 DEBUG [main] AtomikosConnectionProxy.logDebug(20) | atomikos connection proxy for com.mysql.jdbc.jdbc2.optional.JDBC4ConnectionWrapper@78ff9053: detected transaction com.atomikos.icatch.imp.CompositeTransactionImp@f8b732
+[BPM] 2016-02-12 17:28:10 INFO [main] CompositeTransactionImp.logInfo(16) | registerSynchronization ( com.atomikos.jdbc.AtomikosConnectionProxy$JdbcRequeueSynchronization@f8b732 ) for transaction 192.168.179.1.tm0000100102
+[BPM] 2016-02-12 17:28:10 INFO [main] AtomikosConnectionProxy.logInfo(16) | atomikos connection proxy for com.mysql.jdbc.jdbc2.optional.JDBC4ConnectionWrapper@78ff9053: calling prepareStatement(SELECT money from account where UserId = '123')...
+[BPM] 2016-02-12 17:28:10 DEBUG [main] AtomikosConnectionProxy.logDebug(20) | atomikos connection proxy for com.mysql.jdbc.jdbc2.optional.JDBC4ConnectionWrapper@78ff9053: prepareStatement returning com.mysql.jdbc.jdbc2.optional.JDBC4PreparedStatementWrapper@28ae4646: SELECT money from account where UserId = '123'
+[BPM] 2016-02-12 17:28:10 DEBUG [main] BaseTransactionManager.logDebug(20) | getCompositeTransaction()  returning instance with id 192.168.179.1.tm0000100102
+[BPM] 2016-02-12 17:28:10 DEBUG [main] AtomikosConnectionProxy.logDebug(20) | atomikos connection proxy for com.mysql.jdbc.jdbc2.optional.JDBC4ConnectionWrapper@78ff9053: notifyBeforeUse a SessionHandleState with 1 context(s)
+[BPM] 2016-02-12 17:28:10 DEBUG [main] BaseTransactionManager.logDebug(20) | getCompositeTransaction()  returning instance with id 192.168.179.1.tm0000100102
+[BPM] 2016-02-12 17:28:10 DEBUG [main] SessionHandleState.logDebug(20) | a SessionHandleState with 1 context(s): checking XA context for transaction com.atomikos.icatch.imp.CompositeTransactionImp@f8b732
+[BPM] 2016-02-12 17:28:10 DEBUG [main] TransactionContext.logDebug(20) | a TransactionContext: changing to state null
+[BPM] 2016-02-12 17:28:10 DEBUG [main] AtomikosConnectionProxy.logDebug(20) | atomikos connection proxy for com.mysql.jdbc.jdbc2.optional.JDBC4ConnectionWrapper@78ff9053: detected transaction com.atomikos.icatch.imp.CompositeTransactionImp@f8b732
+[BPM] 2016-02-12 17:28:10 INFO [main] CompositeTransactionImp.logInfo(16) | registerSynchronization ( com.atomikos.jdbc.AtomikosConnectionProxy$JdbcRequeueSynchronization@f8b732 ) for transaction 192.168.179.1.tm0000100102
+[BPM] 2016-02-12 17:28:10 INFO [main] AtomikosConnectionProxy.logInfo(16) | atomikos connection proxy for com.mysql.jdbc.jdbc2.optional.JDBC4ConnectionWrapper@78ff9053: calling prepareStatement(update account set money = '-5435399' where UserId = '123')...
+[BPM] 2016-02-12 17:28:10 DEBUG [main] AtomikosConnectionProxy.logDebug(20) | atomikos connection proxy for com.mysql.jdbc.jdbc2.optional.JDBC4ConnectionWrapper@78ff9053: prepareStatement returning com.mysql.jdbc.jdbc2.optional.JDBC4PreparedStatementWrapper@760951a0: update account set money = '-5435399' where UserId = '123'
+[BPM] 2016-02-12 17:28:10 DEBUG [main] BaseTransactionManager.logDebug(20) | getCompositeTransaction()  returning instance with id 192.168.179.1.tm0000100102
+[BPM] 2016-02-12 17:28:10 INFO [main] AtomikosConnectionProxy.logInfo(16) | atomikos connection proxy for com.mysql.jdbc.jdbc2.optional.JDBC4ConnectionWrapper@78ff9053: close()...
+[BPM] 2016-02-12 17:28:10 DEBUG [main] AbstractConnectionProxy.logDebug(20) | Forcing close of pending statement: com.mysql.jdbc.jdbc2.optional.JDBC4PreparedStatementWrapper@28ae4646: SELECT money from account where UserId = '123'
+[BPM] 2016-02-12 17:28:10 DEBUG [main] AbstractConnectionProxy.logDebug(20) | Forcing close of pending statement: com.mysql.jdbc.jdbc2.optional.JDBC4PreparedStatementWrapper@760951a0: update account set money = '-5435399' where UserId = '123'
+[BPM] 2016-02-12 17:28:10 DEBUG [main] SessionHandleState.logDebug(20) | a SessionHandleState with 1 context(s): entering notifySessionClosed
+[BPM] 2016-02-12 17:28:10 DEBUG [main] SessionHandleState.logDebug(20) | a SessionHandleState with 1 context(s): delegating session close to a TransactionContext
+[BPM] 2016-02-12 17:28:10 INFO [main] XAResourceTransaction.logInfo(16) | XAResource.end ( 3139322E3136382E3137392E312E746D30303030313030313032:3139322E3136382E3137392E312E746D31 , XAResource.TMSUCCESS ) on resource mysql/dataSourceBeanA represented by XAResource instance com.mysql.jdbc.jdbc2.optional.JDBC4MysqlXAConnection@64df83e5
+[BPM] 2016-02-12 17:28:10 DEBUG [main] TransactionContext.logDebug(20) | a TransactionContext: changing state to com.atomikos.datasource.xa.session.BranchEndedStateHandler@3ee7f6eb
+[BPM] 2016-02-12 17:28:10 DEBUG [main] TransactionContext.logDebug(20) | a TransactionContext: changing to state com.atomikos.datasource.xa.session.BranchEndedStateHandler@3ee7f6eb
+[BPM] 2016-02-12 17:28:10 DEBUG [main] AtomikosConnectionProxy.logDebug(20) | atomikos connection proxy for com.mysql.jdbc.jdbc2.optional.JDBC4ConnectionWrapper@78ff9053: closed.
+[BPM] 2016-02-12 17:28:10 DEBUG [main] DefaultListableBeanFactory.doGetBean(245) | Returning cached instance of singleton bean 'dataSourceBeanB'
+[BPM] 2016-02-12 17:28:10 INFO [main] AbstractDataSourceBean.logInfo(16) | AtomikosDataSoureBean 'mysql/b': getConnection ( null )...
+[BPM] 2016-02-12 17:28:10 INFO [main] AbstractDataSourceBean.logInfo(16) | AtomikosDataSoureBean 'mysql/b': init...
+[BPM] 2016-02-12 17:28:10 DEBUG [main] BaseTransactionManager.logDebug(20) | getCompositeTransaction()  returning instance with id 192.168.179.1.tm0000100102
+[BPM] 2016-02-12 17:28:10 DEBUG [main] BaseTransactionManager.logDebug(20) | getCompositeTransaction()  returning instance with id 192.168.179.1.tm0000100102
+[BPM] 2016-02-12 17:28:10 DEBUG [main] BaseTransactionManager.logDebug(20) | getCompositeTransaction()  returning instance with id 192.168.179.1.tm0000100102
+[BPM] 2016-02-12 17:28:10 DEBUG [main] BaseTransactionManager.logDebug(20) | getCompositeTransaction()  returning instance with id 192.168.179.1.tm0000100102
+[BPM] 2016-02-12 17:28:10 DEBUG [main] BaseTransactionManager.logDebug(20) | getCompositeTransaction()  returning instance with id 192.168.179.1.tm0000100102
+[BPM] 2016-02-12 17:28:10 DEBUG [main] BaseTransactionManager.logDebug(20) | getCompositeTransaction()  returning instance with id 192.168.179.1.tm0000100102
+[BPM] 2016-02-12 17:28:10 DEBUG [main] BaseTransactionManager.logDebug(20) | getCompositeTransaction()  returning instance with id 192.168.179.1.tm0000100102
+[BPM] 2016-02-12 17:28:10 DEBUG [main] BaseTransactionManager.logDebug(20) | getCompositeTransaction()  returning instance with id 192.168.179.1.tm0000100102
+[BPM] 2016-02-12 17:28:10 DEBUG [main] BaseTransactionManager.logDebug(20) | getCompositeTransaction()  returning instance with id 192.168.179.1.tm0000100102
+[BPM] 2016-02-12 17:28:10 DEBUG [main] BaseTransactionManager.logDebug(20) | getCompositeTransaction()  returning instance with id 192.168.179.1.tm0000100102
+[BPM] 2016-02-12 17:28:10 DEBUG [main] AbstractXPooledConnection.logDebug(20) | an AtomikosXAPooledConnection with a SessionHandleState with 0 context(s): updating last time acquired
+[BPM] 2016-02-12 17:28:10 DEBUG [main] AtomikosXAPooledConnection.logDebug(20) | an AtomikosXAPooledConnection with a SessionHandleState with 0 context(s): no test query, skipping test
+[BPM] 2016-02-12 17:28:10 DEBUG [main] AtomikosXAPooledConnection.logDebug(20) | an AtomikosXAPooledConnection with a SessionHandleState with 0 context(s): creating connection proxy...
+[BPM] 2016-02-12 17:28:10 DEBUG [main] SessionHandleState.logDebug(20) | a SessionHandleState with 0 context(s): notifySessionBorrowed
+[BPM] 2016-02-12 17:28:10 DEBUG [main] TransactionContext.logDebug(20) | a TransactionContext: changing to state com.atomikos.datasource.xa.session.NotInBranchStateHandler@6f03de90
+[BPM] 2016-02-12 17:28:10 DEBUG [main] BaseTransactionManager.logDebug(20) | getCompositeTransaction()  returning instance with id 192.168.179.1.tm0000100102
+[BPM] 2016-02-12 17:28:10 INFO [main] AtomikosConnectionProxy.logInfo(16) | atomikos connection proxy for com.mysql.jdbc.jdbc2.optional.JDBC4ConnectionWrapper@20a29c6e: calling toString...
+[BPM] 2016-02-12 17:28:10 DEBUG [main] AtomikosConnectionProxy.logDebug(20) | atomikos connection proxy for com.mysql.jdbc.jdbc2.optional.JDBC4ConnectionWrapper@20a29c6e: toString returning com.mysql.jdbc.jdbc2.optional.JDBC4ConnectionWrapper@20a29c6e
+[BPM] 2016-02-12 17:28:10 DEBUG [main] AbstractXPooledConnection.logDebug(20) | an AtomikosXAPooledConnection with a SessionHandleState with 1 context(s): returning proxy com.mysql.jdbc.jdbc2.optional.JDBC4ConnectionWrapper@20a29c6e
+[BPM] 2016-02-12 17:28:10 DEBUG [main] ConnectionPool.logDebug(20) | atomikos connection pool 'mysql/b': got connection from pool
+[BPM] 2016-02-12 17:28:10 DEBUG [main] ConnectionPool.logDebug(20) | atomikos connection pool 'mysql/b': current size: 9/10
+[BPM] 2016-02-12 17:28:10 DEBUG [main] BaseTransactionManager.logDebug(20) | getCompositeTransaction()  returning instance with id 192.168.179.1.tm0000100102
+[BPM] 2016-02-12 17:28:10 INFO [main] AtomikosConnectionProxy.logInfo(16) | atomikos connection proxy for com.mysql.jdbc.jdbc2.optional.JDBC4ConnectionWrapper@20a29c6e: calling toString...
+[BPM] 2016-02-12 17:28:10 DEBUG [main] AtomikosConnectionProxy.logDebug(20) | atomikos connection proxy for com.mysql.jdbc.jdbc2.optional.JDBC4ConnectionWrapper@20a29c6e: toString returning com.mysql.jdbc.jdbc2.optional.JDBC4ConnectionWrapper@20a29c6e
+[BPM] 2016-02-12 17:28:10 DEBUG [main] AbstractDataSourceBean.logDebug(20) | AtomikosDataSoureBean 'mysql/b': returning com.mysql.jdbc.jdbc2.optional.JDBC4ConnectionWrapper@20a29c6e
+[BPM] 2016-02-12 17:28:10 DEBUG [main] BaseTransactionManager.logDebug(20) | getCompositeTransaction()  returning instance with id 192.168.179.1.tm0000100102
+[BPM] 2016-02-12 17:28:10 DEBUG [main] AtomikosConnectionProxy.logDebug(20) | atomikos connection proxy for com.mysql.jdbc.jdbc2.optional.JDBC4ConnectionWrapper@20a29c6e: notifyBeforeUse a SessionHandleState with 1 context(s)
+[BPM] 2016-02-12 17:28:10 DEBUG [main] BaseTransactionManager.logDebug(20) | getCompositeTransaction()  returning instance with id 192.168.179.1.tm0000100102
+[BPM] 2016-02-12 17:28:10 DEBUG [main] SessionHandleState.logDebug(20) | a SessionHandleState with 1 context(s): checking XA context for transaction com.atomikos.icatch.imp.CompositeTransactionImp@f8b732
+[BPM] 2016-02-12 17:28:10 DEBUG [main] CoordinatorImp.logDebug(20) | Coordinator 192.168.179.1.tm0000100102 entering state: ACTIVE
+[BPM] 2016-02-12 17:28:10 INFO [main] CompositeTransactionImp.logInfo(16) | addParticipant ( XAResourceTransaction: 3139322E3136382E3137392E312E746D30303030313030313032:3139322E3136382E3137392E312E746D32 ) for transaction 192.168.179.1.tm0000100102
+[BPM] 2016-02-12 17:28:10 DEBUG [main] XAResourceTransaction.logDebug(20) | XAResourceTransaction: 3139322E3136382E3137392E312E746D30303030313030313032:3139322E3136382E3137392E312E746D32: about to switch to XAResource com.mysql.jdbc.jdbc2.optional.JDBC4MysqlXAConnection@38c52200
+[BPM] 2016-02-12 17:28:10 DEBUG [main] XAResourceTransaction.logDebug(20) | XAResourceTransaction 192.168.179.1.tm0000100102192.168.179.1.tm2: switched to XAResource com.mysql.jdbc.jdbc2.optional.JDBC4MysqlXAConnection@38c52200
+[BPM] 2016-02-12 17:28:10 INFO [main] XAResourceTransaction.logInfo(16) | XAResource.start ( 3139322E3136382E3137392E312E746D30303030313030313032:3139322E3136382E3137392E312E746D32 , XAResource.TMNOFLAGS ) on resource mysql/b represented by XAResource instance com.mysql.jdbc.jdbc2.optional.JDBC4MysqlXAConnection@38c52200
+[BPM] 2016-02-12 17:28:10 DEBUG [main] TransactionContext.logDebug(20) | a TransactionContext: changing to state com.atomikos.datasource.xa.session.BranchEnlistedStateHandler@5fa80aea
+[BPM] 2016-02-12 17:28:10 DEBUG [main] AtomikosConnectionProxy.logDebug(20) | atomikos connection proxy for com.mysql.jdbc.jdbc2.optional.JDBC4ConnectionWrapper@20a29c6e: detected transaction com.atomikos.icatch.imp.CompositeTransactionImp@f8b732
+[BPM] 2016-02-12 17:28:10 INFO [main] CompositeTransactionImp.logInfo(16) | registerSynchronization ( com.atomikos.jdbc.AtomikosConnectionProxy$JdbcRequeueSynchronization@f8b732 ) for transaction 192.168.179.1.tm0000100102
+[BPM] 2016-02-12 17:28:10 INFO [main] AtomikosConnectionProxy.logInfo(16) | atomikos connection proxy for com.mysql.jdbc.jdbc2.optional.JDBC4ConnectionWrapper@20a29c6e: calling prepareStatement(SELECT money from account where UserId = '123')...
+[BPM] 2016-02-12 17:28:10 DEBUG [main] AtomikosConnectionProxy.logDebug(20) | atomikos connection proxy for com.mysql.jdbc.jdbc2.optional.JDBC4ConnectionWrapper@20a29c6e: prepareStatement returning com.mysql.jdbc.jdbc2.optional.JDBC4PreparedStatementWrapper@6bdc64a5: SELECT money from account where UserId = '123'
+[BPM] 2016-02-12 17:28:10 DEBUG [main] BaseTransactionManager.logDebug(20) | getCompositeTransaction()  returning instance with id 192.168.179.1.tm0000100102
+[BPM] 2016-02-12 17:28:10 DEBUG [main] AtomikosConnectionProxy.logDebug(20) | atomikos connection proxy for com.mysql.jdbc.jdbc2.optional.JDBC4ConnectionWrapper@20a29c6e: notifyBeforeUse a SessionHandleState with 1 context(s)
+[BPM] 2016-02-12 17:28:10 DEBUG [main] BaseTransactionManager.logDebug(20) | getCompositeTransaction()  returning instance with id 192.168.179.1.tm0000100102
+[BPM] 2016-02-12 17:28:10 DEBUG [main] SessionHandleState.logDebug(20) | a SessionHandleState with 1 context(s): checking XA context for transaction com.atomikos.icatch.imp.CompositeTransactionImp@f8b732
+[BPM] 2016-02-12 17:28:10 DEBUG [main] TransactionContext.logDebug(20) | a TransactionContext: changing to state null
+[BPM] 2016-02-12 17:28:10 DEBUG [main] AtomikosConnectionProxy.logDebug(20) | atomikos connection proxy for com.mysql.jdbc.jdbc2.optional.JDBC4ConnectionWrapper@20a29c6e: detected transaction com.atomikos.icatch.imp.CompositeTransactionImp@f8b732
+[BPM] 2016-02-12 17:28:10 INFO [main] CompositeTransactionImp.logInfo(16) | registerSynchronization ( com.atomikos.jdbc.AtomikosConnectionProxy$JdbcRequeueSynchronization@f8b732 ) for transaction 192.168.179.1.tm0000100102
+[BPM] 2016-02-12 17:28:10 INFO [main] AtomikosConnectionProxy.logInfo(16) | atomikos connection proxy for com.mysql.jdbc.jdbc2.optional.JDBC4ConnectionWrapper@20a29c6e: calling prepareStatement(update account set money = '5435399' where UserId = '123')...
+[BPM] 2016-02-12 17:28:10 DEBUG [main] AtomikosConnectionProxy.logDebug(20) | atomikos connection proxy for com.mysql.jdbc.jdbc2.optional.JDBC4ConnectionWrapper@20a29c6e: prepareStatement returning com.mysql.jdbc.jdbc2.optional.JDBC4PreparedStatementWrapper@7966340c: update account set money = '5435399' where UserId = '123'
+[BPM] 2016-02-12 17:28:10 DEBUG [main] BaseTransactionManager.logDebug(20) | getCompositeTransaction()  returning instance with id 192.168.179.1.tm0000100102
+[BPM] 2016-02-12 17:28:10 INFO [main] AtomikosConnectionProxy.logInfo(16) | atomikos connection proxy for com.mysql.jdbc.jdbc2.optional.JDBC4ConnectionWrapper@20a29c6e: close()...
+[BPM] 2016-02-12 17:28:10 DEBUG [main] AbstractConnectionProxy.logDebug(20) | Forcing close of pending statement: com.mysql.jdbc.jdbc2.optional.JDBC4PreparedStatementWrapper@6bdc64a5: SELECT money from account where UserId = '123'
+[BPM] 2016-02-12 17:28:10 DEBUG [main] AbstractConnectionProxy.logDebug(20) | Forcing close of pending statement: com.mysql.jdbc.jdbc2.optional.JDBC4PreparedStatementWrapper@7966340c: update account set money = '5435399' where UserId = '123'
+[BPM] 2016-02-12 17:28:10 DEBUG [main] SessionHandleState.logDebug(20) | a SessionHandleState with 1 context(s): entering notifySessionClosed
+[BPM] 2016-02-12 17:28:10 DEBUG [main] SessionHandleState.logDebug(20) | a SessionHandleState with 1 context(s): delegating session close to a TransactionContext
+[BPM] 2016-02-12 17:28:10 INFO [main] XAResourceTransaction.logInfo(16) | XAResource.end ( 3139322E3136382E3137392E312E746D30303030313030313032:3139322E3136382E3137392E312E746D32 , XAResource.TMSUCCESS ) on resource mysql/b represented by XAResource instance com.mysql.jdbc.jdbc2.optional.JDBC4MysqlXAConnection@38c52200
+[BPM] 2016-02-12 17:28:10 DEBUG [main] TransactionContext.logDebug(20) | a TransactionContext: changing state to com.atomikos.datasource.xa.session.BranchEndedStateHandler@4b2922f6
+[BPM] 2016-02-12 17:28:10 DEBUG [main] TransactionContext.logDebug(20) | a TransactionContext: changing to state com.atomikos.datasource.xa.session.BranchEndedStateHandler@4b2922f6
+[BPM] 2016-02-12 17:28:10 DEBUG [main] AtomikosConnectionProxy.logDebug(20) | atomikos connection proxy for com.mysql.jdbc.jdbc2.optional.JDBC4ConnectionWrapper@20a29c6e: closed.
+[BPM] 2016-02-12 17:28:10 DEBUG [main] BaseTransactionManager.logDebug(20) | getCompositeTransaction()  returning instance with id 192.168.179.1.tm0000100102
+[BPM] 2016-02-12 17:28:10 INFO [main] CompositeTransactionImp.logInfo(16) | commit() done (by application) of transaction 192.168.179.1.tm0000100102
+[BPM] 2016-02-12 17:28:10 DEBUG [main] CoordinatorImp.logDebug(20) | Coordinator 192.168.179.1.tm0000100102 entering state: PREPARING
+[BPM] 2016-02-12 17:28:10 DEBUG [main] XAResourceTransaction.logDebug(20) | About to call prepare on XAResource instance: com.mysql.jdbc.jdbc2.optional.JDBC4MysqlXAConnection@64df83e5
+[BPM] 2016-02-12 17:28:10 INFO [main] XAResourceTransaction.logInfo(16) | XAResource.prepare ( 3139322E3136382E3137392E312E746D30303030313030313032:3139322E3136382E3137392E312E746D31 ) returning OK on resource mysql/dataSourceBeanA represented by XAResource instance com.mysql.jdbc.jdbc2.optional.JDBC4MysqlXAConnection@64df83e5
+[BPM] 2016-02-12 17:28:10 DEBUG [main] XAResourceTransaction.logDebug(20) | About to call prepare on XAResource instance: com.mysql.jdbc.jdbc2.optional.JDBC4MysqlXAConnection@38c52200
+[BPM] 2016-02-12 17:28:10 INFO [main] XAResourceTransaction.logInfo(16) | XAResource.prepare ( 3139322E3136382E3137392E312E746D30303030313030313032:3139322E3136382E3137392E312E746D32 ) returning OK on resource mysql/b represented by XAResource instance com.mysql.jdbc.jdbc2.optional.JDBC4MysqlXAConnection@38c52200
+[BPM] 2016-02-12 17:28:10 DEBUG [main] CoordinatorImp.logDebug(20) | Coordinator 192.168.179.1.tm0000100102 entering state: IN_DOUBT
+[BPM] 2016-02-12 17:28:10 DEBUG [main] CoordinatorImp.logDebug(20) | prepare() of Coordinator  192.168.179.1.tm0000100102 returning YES vote
+[BPM] 2016-02-12 17:28:10 DEBUG [main] CoordinatorImp.logDebug(20) | Coordinator 192.168.179.1.tm0000100102 entering state: COMMITTING
+[BPM] 2016-02-12 17:28:10 INFO [main] XAResourceTransaction.logInfo(16) | XAResource.commit ( 3139322E3136382E3137392E312E746D30303030313030313032:3139322E3136382E3137392E312E746D31 , false ) on resource mysql/dataSourceBeanA represented by XAResource instance com.mysql.jdbc.jdbc2.optional.JDBC4MysqlXAConnection@64df83e5
+[BPM] 2016-02-12 17:28:10 INFO [main] XAResourceTransaction.logInfo(16) | XAResource.commit ( 3139322E3136382E3137392E312E746D30303030313030313032:3139322E3136382E3137392E312E746D32 , false ) on resource mysql/b represented by XAResource instance com.mysql.jdbc.jdbc2.optional.JDBC4MysqlXAConnection@38c52200
+[BPM] 2016-02-12 17:28:10 DEBUG [main] CoordinatorImp.logDebug(20) | Coordinator 192.168.179.1.tm0000100102 entering state: TERMINATED
+[BPM] 2016-02-12 17:28:10 DEBUG [main] CoordinatorImp.logDebug(20) | Coordinator 192.168.179.1.tm0000100102 : stopping timer...
+[BPM] 2016-02-12 17:28:10 DEBUG [main] CoordinatorImp.logDebug(20) | Coordinator 192.168.179.1.tm0000100102 : disposing statehandler TERMINATED...
+[BPM] 2016-02-12 17:28:10 DEBUG [main] CoordinatorImp.logDebug(20) | Coordinator 192.168.179.1.tm0000100102 : disposed.
+[BPM] 2016-02-12 17:28:10 DEBUG [main] AtomikosConnectionProxy.logDebug(20) | atomikos connection proxy for com.mysql.jdbc.jdbc2.optional.JDBC4ConnectionWrapper@78ff9053: detected termination of transaction com.atomikos.icatch.imp.CompositeTransactionImp@f8b732
+[BPM] 2016-02-12 17:28:10 DEBUG [main] TransactionContext.logDebug(20) | a TransactionContext: changing to state com.atomikos.datasource.xa.session.TerminatedStateHandler@5edf2d38
+[BPM] 2016-02-12 17:28:10 DEBUG [main] SessionHandleState.logDebug(20) | a SessionHandleState with 0 context(s): all contexts terminated, firing TerminatedEvent for a SessionHandleState with 0 context(s)
+[BPM] 2016-02-12 17:28:10 DEBUG [main] AtomikosXAPooledConnection.logDebug(20) | SessionHandleState terminated, firing XPooledConnectionTerminated event for an AtomikosXAPooledConnection with a SessionHandleState with 0 context(s)
+[BPM] 2016-02-12 17:28:10 DEBUG [main] AbstractXPooledConnection.logDebug(20) | an AtomikosXAPooledConnection with a SessionHandleState with 0 context(s): updating last time released
+[BPM] 2016-02-12 17:28:10 DEBUG [main] AbstractXPooledConnection.logDebug(20) | an AtomikosXAPooledConnection with a SessionHandleState with 0 context(s): notifying listener: atomikos connection pool 'mysql/dataSourceBeanA'
+[BPM] 2016-02-12 17:28:10 DEBUG [main] ConnectionPool.logDebug(20) | atomikos connection pool 'mysql/dataSourceBeanA': connection an AtomikosXAPooledConnection with a SessionHandleState with 0 context(s) became available, notifying potentially waiting threads
+[BPM] 2016-02-12 17:28:10 DEBUG [main] AbstractXPooledConnection.logDebug(20) | an AtomikosXAPooledConnection with a SessionHandleState with 0 context(s): updating last time released
+[BPM] 2016-02-12 17:28:10 DEBUG [main] AtomikosConnectionProxy.logDebug(20) | atomikos connection proxy for com.mysql.jdbc.jdbc2.optional.JDBC4ConnectionWrapper@78ff9053: detected termination of transaction com.atomikos.icatch.imp.CompositeTransactionImp@f8b732
+[BPM] 2016-02-12 17:28:10 DEBUG [main] AtomikosConnectionProxy.logDebug(20) | atomikos connection proxy for com.mysql.jdbc.jdbc2.optional.JDBC4ConnectionWrapper@20a29c6e: detected termination of transaction com.atomikos.icatch.imp.CompositeTransactionImp@f8b732
+[BPM] 2016-02-12 17:28:10 DEBUG [main] TransactionContext.logDebug(20) | a TransactionContext: changing to state com.atomikos.datasource.xa.session.TerminatedStateHandler@e11e831
+[BPM] 2016-02-12 17:28:10 DEBUG [main] SessionHandleState.logDebug(20) | a SessionHandleState with 0 context(s): all contexts terminated, firing TerminatedEvent for a SessionHandleState with 0 context(s)
+[BPM] 2016-02-12 17:28:10 DEBUG [main] AtomikosXAPooledConnection.logDebug(20) | SessionHandleState terminated, firing XPooledConnectionTerminated event for an AtomikosXAPooledConnection with a SessionHandleState with 0 context(s)
+[BPM] 2016-02-12 17:28:10 DEBUG [main] AbstractXPooledConnection.logDebug(20) | an AtomikosXAPooledConnection with a SessionHandleState with 0 context(s): updating last time released
+[BPM] 2016-02-12 17:28:10 DEBUG [main] AbstractXPooledConnection.logDebug(20) | an AtomikosXAPooledConnection with a SessionHandleState with 0 context(s): notifying listener: atomikos connection pool 'mysql/b'
+[BPM] 2016-02-12 17:28:10 DEBUG [main] ConnectionPool.logDebug(20) | atomikos connection pool 'mysql/b': connection an AtomikosXAPooledConnection with a SessionHandleState with 0 context(s) became available, notifying potentially waiting threads
+[BPM] 2016-02-12 17:28:10 DEBUG [main] AbstractXPooledConnection.logDebug(20) | an AtomikosXAPooledConnection with a SessionHandleState with 0 context(s): updating last time released
+[BPM] 2016-02-12 17:28:10 DEBUG [main] AtomikosConnectionProxy.logDebug(20) | atomikos connection proxy for com.mysql.jdbc.jdbc2.optional.JDBC4ConnectionWrapper@20a29c6e: detected termination of transaction com.atomikos.icatch.imp.CompositeTransactionImp@f8b732
+cost time = 166
+
+Process finished with exit code 0
