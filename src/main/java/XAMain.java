@@ -31,7 +31,7 @@ public class XAMain {
         Random rd = new Random();
         XAMain main = new XAMain();
         long startTime = System.currentTimeMillis();
-        for (int i = 0; i < 2; i++) {
+        for (int i = 0; i < 100; i++) {
             int transMoney = rd.nextInt(1000000);
             //main.transeMoney(transMoney, transMoney%2);
             main.transeMoney(transMoney, transMoney % 2, true);
@@ -43,7 +43,7 @@ public class XAMain {
 
     private void transeMoney(int money, int forward, boolean b) {
 
-        logger.debug("money = " + money);
+        logger.debug("start transeMoney money = " + money);
         int accountAAddMoney = 0;
         int accountBAddMoney = 0;
         if (forward == 1) {
@@ -58,7 +58,10 @@ public class XAMain {
 
         try {
             utm.begin();
+
             modifyAccountAMoney(accountAAddMoney);
+            //Thread.sleep(3000);
+            System.out.println("wait---------------------------");
             modifyAccountBMoney(accountBAddMoney);
             utm.commit();
         } catch (NotSupportedException e) {

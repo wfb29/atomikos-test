@@ -67,7 +67,7 @@
         <property name="transactionTimeout" value="300"/>
     </bean>
 
-
+<!-- 用不到
     <bean id="springTransactionManager" class="org.springframework.transaction.jta.JtaTransactionManager">
         <property name="transactionManager">
             <ref bean="atomikosTransactionManager"/>
@@ -76,7 +76,8 @@
             <ref bean="atomikosUserTransaction"/>
         </property>
     </bean>
-
+-->
+    <!-- 用不到
     <bean id="atomikosTransactionProxy"
           class="org.springframework.transaction.interceptor.TransactionProxyFactoryBean"
           abstract="true">
@@ -89,7 +90,7 @@
             </props>
         </property>
     </bean>
-
+-->
 
 
     <!--Atomikos  JTA 事务 end  -->
